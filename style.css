@@ -1,5 +1,5 @@
 :root {
-    --text:rgb(89, 109, 72);
+    --text:rgb(221, 227, 216);
 }
 
 *{
@@ -13,4 +13,30 @@
 .content {
     width: 100vw;
     height: 100vh;
+    display: flex;
+}
+
+.picture{
+    background-image: url(annie-spratt-kDo57E2qOE4-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+}
+
+.logo-pic{
+    height: 7em;
 }
