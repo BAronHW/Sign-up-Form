@@ -1,5 +1,6 @@
 :root {
     --text:rgb(221, 227, 216);
+    --colour: rgb(0, 0, 0);
 }
 
 *{
@@ -39,4 +40,13 @@
 
 .logo-pic{
     height: 7em;
+}
+
+.right{
+    width: 60vw;
+    background-color: var(--colour);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
